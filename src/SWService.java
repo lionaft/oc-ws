@@ -2,7 +2,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("/swservice/")
+@Path("/swservice")
 public class SWService {
     @GET
     @Path("/ping")
